@@ -90,3 +90,30 @@ h1 {
   }
 }
 
+.labels {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+
+.label-deal {
+  background-color: green;
+}
+
+.label-premium {
+  background-color: blue;
+}
+
+.label-inclusive {
+  background-color: blue;
+}
